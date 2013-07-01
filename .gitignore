@@ -1,0 +1,4 @@
+*.pyc
+env/testing/settings.py
+env/staging/settings.py
+env/production/settings.py

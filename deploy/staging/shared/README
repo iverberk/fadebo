@@ -1,0 +1,2 @@
+Put all your files/directories with environment specific settings in this folder
+With the settings file you can symlink these files into your release directory

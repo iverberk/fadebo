@@ -1,0 +1,44 @@
+# This file is used to load general and environment specific settings
+
+context = {
+
+  # Which user to use for making the remote connection
+  'user'            : 'deploy',
+
+  # Specify the GIT repo to use for deployment
+  'repo'            : '',
+
+  # The application name
+  'app_name'        : '',
+
+  # The application directory on the remote server
+  'app_dir'         : '',
+
+  # The web root directory
+  'public_dir'      : '',
+
+  # The environments directory
+  'env_dir'         : 'deploy',
+
+  # How many previous releases should we keep
+  'keep_releases'    : 5,
+
+  # Which server do we want to connect to
+  'host_string'     : '',
+
+  # Specify the url for a package on a remote location
+  'package_url'     : '',
+
+  # What format is the package in
+  'package_format'  : 'zip', 
+
+  # This is dictionary of symlinks. It tells which files from
+  # the shared directory should be symlinked into the new release
+  # and in which location they should be put
+  'symlinks'        : {},
+
+  # A list of local artifacts that are deployed to the remote location
+  # The keys specify the local file and the values specify the remote path
+  'artifacts'       : {}
+
+}
