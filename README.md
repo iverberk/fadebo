@@ -49,7 +49,7 @@ Running the deployment for the first time will bootstrap the target environment.
 on your environment:
 
 ```
-app\_dir/
+app_dir/
 
   /src
   /releases
